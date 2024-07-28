@@ -143,6 +143,10 @@ import {
   mongodb,
   git,
   figma,
+  python,
+  lambda,
+  aws,
+  swift,
   docker,
   meta,
   starbucks,
@@ -175,7 +179,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React JS Developer",
     icon: mobile,
   },
   {
@@ -183,19 +187,19 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "IEEE Club Board Member",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Swift",
+    icon: swift,
   },
   {
     name: "JavaScript",
@@ -210,8 +214,14 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "aws",
+    icon: aws,
+
+  },
+  {
+    name: "lambda",
+    icon: lambda,
+
   },
   {
     name: "Tailwind CSS",
@@ -240,6 +250,47 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+];
+
+const educations = [
+  {
+    title: "New York University",
+    company_name: "MS in Computer Science",
+    icon: nyu,
+    iconBg: "#383E56",
+    date: "March 2023 - December 2024",
+    points: [
+      {
+        title: "Program Focus",
+        point:
+          "Advanced computer science concepts and techniques, including data structures and algorithms.",
+      },
+      {
+        title: "Course Includes",
+        point:
+          "Principles of Database Systems, Design & Analysis of Algorithms, Software Engineering, Big Data, and more",
+      },
+    ],
+  },
+  {
+    title: "St. Thomas Aquinas College",
+    company_name: "BS in Computer Science",
+    icon: stac,
+    iconBg: "#E6DEDD",
+    date: "Sep 2018 - May 2022",
+    points: [
+      {
+        title: "Honors & Awards",
+        point:
+          "Advanced computer science concepts and techniques, including data structures and algorithms.",
+      },
+      {
+        title: "Extracurricular Activities",
+        point:
+          "Principles of Database Systems, Design & Analysis of Algorithms, Software Engineering, Big Data, and more",
+      },
+    ],
   },
 ];
 

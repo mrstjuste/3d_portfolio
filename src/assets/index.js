@@ -10,6 +10,10 @@ import close from "./close.svg";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
+import python from "./tech/python.png";
+import swift from "./tech/swift.png";
+import lambda from "./tech/lambda.png";
+import aws from "./tech/aws.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -21,12 +25,23 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import ua from "./education/ua.png";
+import monroe from "./education/monroe.png";
+
 import meta from "./company/meta.png";
+import hf from "./company/hf.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import tik from "./tik.png";
+import damien from "./damien.png";
+import jobboard from "./jobboard.png";
+import cal from "./cal.png";
+import compiler from "./compiler.png";
+import atm from "./atm.png";
+
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -42,6 +57,10 @@ export {
   css,
   docker,
   figma,
+  python,
+  lambda,
+  aws,
+  swift,
   git,
   html,
   javascript,
@@ -52,11 +71,20 @@ export {
   tailwind,
   typescript,
   threejs,
+  ua,
+  monroe,
   meta,
+  hf,
   shopify,
   starbucks,
   tesla,
   carrent,
+  atm,
+  cal,
+  compiler,
+  tik,
+  jobboard,
+  damien,
   jobit,
   tripguide,
 };
