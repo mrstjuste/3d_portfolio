@@ -16,7 +16,6 @@ const App = () => {
         <Tech />
         <Works />
         <Resume />
-        <Feedbacks />
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
