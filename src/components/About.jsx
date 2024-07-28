@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       I'm a software engineer intern with experience in creating efficient
+       I'm a former software engineer intern with experience in creating efficient
         and scalable web applications. My skills include TypeScript, JavaScript,
         React, Node.js, and Python. I have developed AI chatbots, REST APIs,
         and various web applications, optimizing performance and enhancing

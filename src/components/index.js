@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Tech from "./Tech";
 import Education from "./Education";
+import Resume from "./Resume";
 import Experience from "./Experience";
 import Works from "./Works";
 import Feedbacks from "./Feedbacks";
@@ -17,6 +18,7 @@ export {
   About,
   Tech,
   Education,
+  Resume,
   Experience,
   Works,
   Feedbacks,

@@ -45,6 +45,10 @@ import atm from "./atm.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import ResumePic from "./resume.png"
+import Resume from "./briansResume.pdf"
+import DownloadLogo from "./downloadLogo.jpeg";
+
 export {
   logo,
   backend,
@@ -87,4 +91,7 @@ export {
   damien,
   jobit,
   tripguide,
+  Resume,
+  ResumePic,
+  DownloadLogo,
 };
