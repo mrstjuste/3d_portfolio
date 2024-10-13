@@ -69,11 +69,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Web/React Developer",
     icon: mobile,
   },
   {
@@ -81,7 +81,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "IEEE Club Board Member",
+    title: "NSBE Club Member",
     icon: creator,
   },
 ];
@@ -155,11 +155,11 @@ const educations = [
       },
       {
         title: "Minor",
-        point: "Informatics",
+        point: "Mathematics & Informatics",
       },
       {
         title: "Relevant Coursework",
-        point: "Data Structures and Algorithms, Introduction to Data & Databases, Operating Systems, Computer Architecture and Organization, System Fundamentals, Principles of Programming Languages, Introduction to Computer Programming, Software Engineering",
+        point: "Data Structures and Algorithms, Introduction to Data & Databases, Operating Systems, Computer Architecture and Organization, System Fundamentals, Principles of Programming Languages, Software Engineering",
       },
     ],
   },
