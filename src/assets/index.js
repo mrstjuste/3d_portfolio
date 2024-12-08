@@ -30,6 +30,7 @@ import monroe from "./education/monroe.png";
 
 import meta from "./company/meta.png";
 import hf from "./company/hf.png";
+import hs from "./company/headstarter.png"
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -41,6 +42,8 @@ import jobboard from "./jobboard.png";
 import cal from "./cal.png";
 import compiler from "./compiler.png";
 import atm from "./atm.png";
+import adamai from "./adamai_logo.jpg"
+import pmp from "./pmp.png"
 
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -79,6 +82,7 @@ export {
   monroe,
   meta,
   hf,
+  hs,
   shopify,
   starbucks,
   tesla,
@@ -94,4 +98,6 @@ export {
   Resume,
   ResumePic,
   DownloadLogo,
+  adamai,
+  pmp,
 };

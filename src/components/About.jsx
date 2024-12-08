@@ -47,12 +47,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       I'm a former software engineer intern with experience in creating efficient
-        and scalable web applications. My skills include TypeScript, JavaScript,
-        React, Node.js, and Python. I have developed AI chatbots, REST APIs,
-        and various web applications, optimizing performance and enhancing
-        user experience. I collaborate closely with teams to deliver
-        user-friendly solutions that address real-world challenges.
+      I'm a former Software Engineer at Healthfirst and HeadStarter with backend
+      and frontend experience in building scalable web applications. Skilled in
+      TypeScript, JavaScript, React, Node.js, and Python, I have developed AI chatbots,
+      REST APIs, and web apps to optimize performance and enhance user experience. I am
+      a board member of Ualbany NSBE chapter and an active member of ColorStack, contributing to initiatives
+      that promote diversity in tech.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

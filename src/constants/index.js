@@ -23,6 +23,9 @@ import {
   docker,
   meta,
   hf,
+  hs,
+  adamai,
+  pmp,
   starbucks,
   tesla,
   shopify,
@@ -69,19 +72,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full Stack Developer",
+    title: "Software Engieer",
     icon: web,
   },
   {
-    title: "Web/React Developer",
+    title: "NSBE Member",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "ColorStack Member",
     icon: backend,
   },
   {
-    title: "NSBE Club Member",
+    title: "Peer Tutor",
     icon: creator,
   },
 ];
@@ -146,8 +149,8 @@ const educations = [
     title: "University at Albany",
     company_name: "BA in Computer Science",
     icon: ua,
-    iconBg: "#383E56",
-    date: "Jan 2023 - Dec 2025",
+    iconBg: "#000000",
+    date: "2023 - 2025",
     points: [
       {
         title: "Major",
@@ -155,7 +158,7 @@ const educations = [
       },
       {
         title: "Minor",
-        point: "Mathematics & Informatics",
+        point: "Informatics",
       },
       {
         title: "Relevant Coursework",
@@ -168,7 +171,7 @@ const educations = [
     company_name: "AS in Computer Information Systems",
     icon: monroe,
     iconBg: "#E6DEDD",
-    date: "Aug 2021 - Dec 2022",
+    date: "2021 - 2022",
     points: [
       {
         title: "Honors & Awards",
@@ -190,19 +193,40 @@ const educations = [
 
 const experiences = [
   {
-    title: "Software Engineering Intern",
+    title: "Software Engineer",
+    company_name: "HeadStarter",
+    icon: hs, 
+    iconBg: "#000000",
+    date: "August 2024 - October 2024",
+    points: [
+      "Developed a GPT-powered chatbot platform with 1,000+ users, improving engagement by 15% and automating workflows to reduce manual tasks by 30%.",
+      "Built a Python-based model to predict house prices with 90% accuracy, integrating data visualization tools and improving query speed by 20%.",
+      "Created a real-time stock tracker with data updates every 10 seconds, supporting 1,000 users and achieving 85% prediction accuracy with LSTM models.",
+      "Enhanced productivity by building user-friendly applications using React.js, Python, and Firebase.",
+    ],
+  },
+  {
+    title: "Software Engineer",
     company_name: "Healthfirst",
     icon: hf,
     iconBg: "#E6DEDD",
     date: "June 2024 - Aug 2024",
     points: [
-      "Created a Chrome extension AI chatbot that improved work efficiency and productivity by 17%, streamlining workflows and enhancing user experience.",
-      "Developed a new feature that directed prospect members to a form after they chose their primary care physician (PCP), improving new member enrollment by 8%. This feature helped Healthfirst reach the 2 million member benchmark.",
-      "Rotated between software engineering and program management, collaborating with teammates to enhance user accessibility and system efficiency.",
-      "Built and enhanced the web application's frontend using React.js and backend using Python, AWS, and AWS Lambda.",
-      "Utilized AWS DynamoDB for database management and Amazon S3 for storage solutions.",
-      "Created robust and efficient REST APIs for seamless data integration and storage.",
-      "Optimized backend processes and API calls, including those using AWS Lambda, resulting in a 10% reduction in response times, significantly improving the application's performance.",
+      "Developed a Chrome extension AI chatbot, improving productivity by 17% and streamlining workflows.",
+      "Implemented a PCP selection feature, boosting new member enrollment by 8% and helping Healthfirst reach 2 million members.",
+      "Collaborated on frontend (React.js) and backend (Python, AWS Lambda), enhancing accessibility and efficiency.",
+      "Built REST APIs and optimized backend processes, reducing response times by 10% and improving performance.",
+    ],
+  },
+  {
+    title: "Peer Tutor/Mentor",
+    company_name: "University at Albany",
+    icon: ua, 
+    iconBg: "#000000",
+    date: "August 2023 - Present",
+    points: [
+      "Provide tutoring for 200 and 300-level computer science courses, simplifying complex concepts for students.",
+      "Assist students in mastering algorithms, data structures, object-oriented programming, and software development principles.",
     ],
   },
 ];
@@ -237,9 +261,39 @@ const testimonials = [
 
 const projects = [
   {
+    name: "AdamAI",
+    description:
+      "Developed a GPT-powered chatbot platform with 1,000+ users, achieving 92% satisfaction and automating tasks by 30%. Improved engagement by 15%, retention by 12%, and reduced operational costs by 20%, with zero downtime for 1,000+ daily requests.",
+    tags: [
+      { name: "gpt", color: "yellow-text-gradient" },
+      { name: "node.js", color: "blue-text-gradient" },
+      { name: "flask", color: "green-text-gradient" },
+      { name: "react", color: "pink-text-gradient" },
+      { name: "mongodb", color: "green-text-gradient" },
+    ],
+    image: adamai,
+    source_code_link: "https://github.com/mrstjuste/adamai",
+  },
+  {
+    name: "Product/ Project Management Website",
+    description:
+    "Designed and developed a high-performance job board platform with AI-driven job matching, real-time notifications, and interactive profiles. Enhanced user experience, reduced errors by 10%, and increased revenue by 13%.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "mongodb", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
+      { name: "ai", color: "yellow-text-gradient" },
+      { name: "node.js", color: "blue-text-gradient" },
+      { name: "express", color: "green-text-gradient" },
+      { name: "aws", color: "orange-text-gradient" },
+    ],
+    image: pmp,
+    source_code_link: "https://github.com/mrstjuste/Product-Project-Management-Website",
+  },
+  {
     name: "Job Board",
     description:
-      "Led a team to create a high-performance job board website with AI-driven job matching, real-time notifications, and interactive profiles. Achieved a 10% decrease in errors and a 13% increase in revenue.",
+      "Created a high-performance job board website with AI-driven job matching, real-time notifications, and interactive profiles. Achieved a 10% decrease in errors and a 13% increase in revenue.",
     tags: [
       { name: "react", color: "blue-text-gradient" },
       { name: "mongodb", color: "green-text-gradient" },
@@ -291,30 +345,42 @@ const projects = [
     image: atm,
     source_code_link: "https://github.com/mrstjuste/ATM-Simulator",
   },
-  {
-    name: "Tik Tac Toe",
-    description:
-      "Developed a Tic Tac Toe game in Xcode with a user-friendly interface and single-player mode with basic AI. Enhanced gameplay with intuitive touch controls and smooth animations.",
-    tags: [
-      { name: "xcode", color: "blue-text-gradient" },
-      { name: "swift", color: "green-text-gradient" },
-      { name: "game-dev", color: "pink-text-gradient" },
-    ],
-    image: tik,
-    source_code_link: "https://github.com/mrstjuste/TicTacToeGameApp",
-  },
-  {
-    name: "Damien Dash",
-    description:
-      "Created during a 24-hour hackathon, this game features double jumps, a scoring system, and dynamic obstacles. Inspired by the Chrome Dino game, it provides an addictive and engaging experience.",
-    tags: [
-      { name: "html5", color: "blue-text-gradient" },
-      { name: "css3", color: "green-text-gradient" },
-      { name: "javascript", color: "pink-text-gradient" },
-    ],
-    image: damien,
-    source_code_link: "https://github.com/mrstjuste/DamienDash",
-  },
+  // {
+  //   name: "Blog Website",
+  //   description:
+  //   "Developed a modern Tic Tac Toe game in Xcode with a sleek interface, single-player AI, intuitive touch controls, and smooth animations for an engaging experience.",
+  //   tags: [
+  //     { name: "react", color: "blue-text-gradient" },
+  //     { name: "javaScript", color: "green-text-gradient" },
+  //     { name: "node.js", color: "pink-text-gradient" },
+  //   ],
+  //   image: tik,
+  //   source_code_link: "https://github.com/mrstjuste/blog",
+  // },
+  // {
+  //   name: "Tik Tac Toe",
+  //   description:
+  //     "Developed a Tic Tac Toe game in Xcode with a user-friendly interface and single-player mode with basic AI. Enhanced gameplay with intuitive touch controls and smooth animations.",
+  //   tags: [
+  //     { name: "xcode", color: "blue-text-gradient" },
+  //     { name: "swift", color: "green-text-gradient" },
+  //     { name: "game-dev", color: "pink-text-gradient" },
+  //   ],
+  //   image: tik,
+  //   source_code_link: "https://github.com/mrstjuste/TicTacToeGameApp",
+  // },
+  // {
+  //   name: "Damien Dash",
+  //   description:
+  //     "Created during a 24-hour hackathon, this game features double jumps, a scoring system, and dynamic obstacles. Inspired by the Chrome Dino game, it provides an addictive and engaging experience.",
+  //   tags: [
+  //     { name: "html5", color: "blue-text-gradient" },
+  //     { name: "css3", color: "green-text-gradient" },
+  //     { name: "javascript", color: "pink-text-gradient" },
+  //   ],
+  //   image: damien,
+  //   source_code_link: "https://github.com/mrstjuste/DamienDash",
+  // },
 ];
 
 
