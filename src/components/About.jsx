@@ -47,12 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-      I'm a former Software Engineer at Healthfirst and HeadStarter with backend
-      and frontend experience in building scalable web applications. Skilled in
-      TypeScript, JavaScript, React, Node.js, and Python, I have developed AI chatbots,
-      REST APIs, and web apps to optimize performance and enhance user experience. I am
-      a board member of Ualbany NSBE chapter and an active member of ColorStack, contributing to initiatives
-      that promote diversity in tech.
+        I’m a Software Engineer with experience at Healthfirst and HeadStarter,
+        specializing in scalable web applications using TypeScript, JavaScript, React,
+        Node.js, and Python. I’ve built AI chatbots, REST APIs, and user-centric features
+        like Care Connect, which streamlined primary care selection for 500,000+ users. I
+        hold an A.S. in Computer Information Systems and actively mentor 150+ students in
+        computer science at UAlbany. Passionate about innovation, I leverage tools like AWS,
+        Docker, and MongoDB to solve real-world problems. My work focuses on optimizing performance
+          and enhancing user experiences.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

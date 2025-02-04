@@ -84,7 +84,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Peer Tutor",
+    title: "Computer Science Tutor",
     icon: creator,
   },
 ];
@@ -266,7 +266,7 @@ const projects = [
   {
     name: "AdamAI",
     description:
-      "Developed a GPT-powered chatbot platform with 1,000+ users, achieving 92% satisfaction and automating tasks by 30%. Improved engagement by 15%, retention by 12%, and reduced operational costs by 20%, with zero downtime for 1,000+ daily requests.",
+      "Built a GPT-powered chatbot platform using the MERN stack and OpenAI API, serving 1,000+ users with a 92% satisfaction rate. Designed and styled an intuitive UI using React.js and Material-UI, ensuring seamless frontend-backend integration and reducing manual tasks by 30%.",
     tags: [
       { name: "gpt", color: "yellow-text-gradient" },
       { name: "node.js", color: "blue-text-gradient" },
@@ -278,41 +278,37 @@ const projects = [
     source_code_link: "https://github.com/mrstjuste/adamai",
   },
   {
-    name: "Product/ Project Management Website",
+    name: "LinkedIn Inspired Website",
     description:
-    "Designed and developed a high-performance job board platform with AI-driven job matching, real-time notifications, and interactive profiles. Enhanced user experience, reduced errors by 10%, and increased revenue by 13%.",
+      "Led development of a job board platform with AI-driven job matching, real-time notifications, and interactive company profiles. Built a scalable backend using AWS Lambda (Python), API Gateway, and DynamoDB, reducing errors by 10% and improving system reliability.",
     tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "mongodb", color: "green-text-gradient" },
-      { name: "tailwind", color: "pink-text-gradient" },
-      { name: "ai", color: "yellow-text-gradient" },
-      { name: "node.js", color: "blue-text-gradient" },
-      { name: "express", color: "green-text-gradient" },
       { name: "aws", color: "orange-text-gradient" },
-    ],
-    image: pmp,
-    source_code_link: "https://github.com/mrstjuste/Product-Project-Management-Website",
-  },
-  {
-    name: "Job Board",
-    description:
-      "Created a high-performance job board website with AI-driven job matching, real-time notifications, and interactive profiles. Achieved a 10% decrease in errors and a 13% increase in revenue.",
-    tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "mongodb", color: "green-text-gradient" },
-      { name: "tailwind", color: "pink-text-gradient" },
+      { name: "lambda", color: "blue-text-gradient" },
+      { name: "dynamodb", color: "green-text-gradient" },
+      { name: "react", color: "pink-text-gradient" },
       { name: "ai", color: "yellow-text-gradient" },
-      { name: "node.js", color: "blue-text-gradient" },
-      { name: "express", color: "green-text-gradient" },
-      { name: "aws", color: "orange-text-gradient" },
     ],
     image: jobboard,
     source_code_link: "https://github.com/mrstjuste/jobboardwebsite",
   },
   {
+    name: "Project Management Website",
+    description:
+      "Developed a project management tool using the MERN stack, supporting 1,000+ users and increasing team efficiency by 15%. Implemented features like project creation, team management, and role assignment while optimizing backend processes to reduce downtime by 12%.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "mongodb", color: "green-text-gradient" },
+      { name: "node.js", color: "blue-text-gradient" },
+      { name: "express", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
+    ],
+    image: pmp,
+    source_code_link: "https://github.com/mrstjuste/Product-Project-Management-Website",
+  },
+  {
     name: "Programming Language Compiler",
     description:
-      "Engineered a Java compiler with advanced error handling, boosting reliability by 20%. Optimized pipelines for JavaScript, Python, and Kotlin, increasing productivity by 15%.",
+      "Developed a Python interpreter in Java with lexical analysis, parsing, and semantic analysis. Implemented advanced error handling, improving reliability by 10%, and optimized the development pipeline for JavaScript, Python, and Kotlin, enhancing productivity by 15%.",
     tags: [
       { name: "java", color: "blue-text-gradient" },
       { name: "python", color: "green-text-gradient" },
@@ -327,7 +323,7 @@ const projects = [
   {
     name: "Graphing Calculator",
     description:
-      "Developed a graphing calculator in java with advanced mathematical functions and robust graph plotting capabilities. Enhanced user experience with customizable graphing options, zoom functionalities, and multiple graph types for detailed analysis.",
+      "Built a Java-based graphing calculator with customizable graphing options, zoom functionality, and advanced mathematical operations. Designed an intuitive UI with Java Swing, enhancing accessibility and analytical capabilities for users.",
     tags: [
       { name: "java", color: "blue-text-gradient" },
       { name: "JFrame", color: "green-text-gradient" },
@@ -337,9 +333,9 @@ const projects = [
     source_code_link: "https://github.com/mrstjuste/Java_Calculator",
   },
   {
-    name: "ATM",
+    name: "ATM Simulator",
     description:
-      "Created an ATM simulation project in Java, implementing core banking functionalities like balance inquiries, deposits, and withdrawals, ensuring user-friendly interactions.",
+      "Developed an ATM simulation project in Java, implementing core banking functionalities such as deposits, withdrawals, and balance inquiries with a user-friendly interface.",
     tags: [
       { name: "java", color: "blue-text-gradient" },
       { name: "oop", color: "green-text-gradient" },
@@ -348,42 +344,6 @@ const projects = [
     image: atm,
     source_code_link: "https://github.com/mrstjuste/ATM-Simulator",
   },
-  // {
-  //   name: "Blog Website",
-  //   description:
-  //   "Developed a modern Tic Tac Toe game in Xcode with a sleek interface, single-player AI, intuitive touch controls, and smooth animations for an engaging experience.",
-  //   tags: [
-  //     { name: "react", color: "blue-text-gradient" },
-  //     { name: "javaScript", color: "green-text-gradient" },
-  //     { name: "node.js", color: "pink-text-gradient" },
-  //   ],
-  //   image: tik,
-  //   source_code_link: "https://github.com/mrstjuste/blog",
-  // },
-  // {
-  //   name: "Tik Tac Toe",
-  //   description:
-  //     "Developed a Tic Tac Toe game in Xcode with a user-friendly interface and single-player mode with basic AI. Enhanced gameplay with intuitive touch controls and smooth animations.",
-  //   tags: [
-  //     { name: "xcode", color: "blue-text-gradient" },
-  //     { name: "swift", color: "green-text-gradient" },
-  //     { name: "game-dev", color: "pink-text-gradient" },
-  //   ],
-  //   image: tik,
-  //   source_code_link: "https://github.com/mrstjuste/TicTacToeGameApp",
-  // },
-  // {
-  //   name: "Damien Dash",
-  //   description:
-  //     "Created during a 24-hour hackathon, this game features double jumps, a scoring system, and dynamic obstacles. Inspired by the Chrome Dino game, it provides an addictive and engaging experience.",
-  //   tags: [
-  //     { name: "html5", color: "blue-text-gradient" },
-  //     { name: "css3", color: "green-text-gradient" },
-  //     { name: "javascript", color: "pink-text-gradient" },
-  //   ],
-  //   image: damien,
-  //   source_code_link: "https://github.com/mrstjuste/DamienDash",
-  // },
 ];
 
 
