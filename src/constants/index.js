@@ -199,10 +199,9 @@ const experiences = [
     iconBg: "#000000",
     date: "August 2024 - October 2024",
     points: [
-      "Developed a GPT-powered chatbot platform with 1,000+ users, improving engagement by 15% and automating workflows to reduce manual tasks by 30%.",
-      "Built a Python-based model to predict house prices with 90% accuracy, integrating data visualization tools and improving query speed by 20%.",
-      "Created a real-time stock tracker with data updates every 10 seconds, supporting 1,000 users and achieving 85% prediction accuracy with LSTM models.",
-      "Enhanced productivity by building user-friendly applications using React.js, Python, and Firebase.",
+      "Collaborated with a diverse team of engineers and students in a competitive fellowship program, leading the design and development of seven user-friendly projects over a 7-week period.",
+      "Built an AI-powered playlist generator and recommendation application using Python and machine learning algorithms, integrating Spotify’s API for real-time data and implementing a React.js frontend, increasing engagement rates by 15%.",
+      "Developed a real-time fitness tracker and analytics platform, supporting 1,000+ users. Combined live data from wearable devices with a predictive model using LSTM algorithms, designed interactive dashboards with React.js, and utilized Firebase for secure, real-time data management, boosting user retention by 12%.",
     ],
   },
   {
@@ -210,12 +209,15 @@ const experiences = [
     company_name: "Healthfirst",
     icon: hf,
     iconBg: "#E6DEDD",
-    date: "June 2024 - Aug 2024",
+    date: "June 2024 - August 2024",
     points: [
-      "Developed a Chrome extension AI chatbot, improving productivity by 17% and streamlining workflows.",
-      "Implemented a PCP selection feature, boosting new member enrollment by 8% and helping Healthfirst reach 2 million members.",
-      "Collaborated on frontend (React.js) and backend (Python, AWS Lambda), enhancing accessibility and efficiency.",
-      "Built REST APIs and optimized backend processes, reducing response times by 10% and improving performance.",
+      "Collaborated on Helpfirst, an internal Chrome extension AI chatbot for 100+ developers, boosting productivity by 8% and improving delivery speed.",
+      "Utilized React.js to design a responsive frontend for user input and adjustable settings, providing a highly customizable experience.",
+      "Trained a custom LLM using web development datasets and implemented a scalable backend using an AWS serverless stack including Lambda (Python), API Gateway, and DynamoDB for efficient data handling and integration.",
+      "Developed Care Connect, a feature guiding users to select primary care physicians based on location, language, and care ratings.",
+      "Built the interface and a POST API using AWS Lambda and DynamoDB, supporting 500,000+ users during open enrollment and boosting new member enrollment by 8%, helping Healthfirst reach 2,000,000 members.",
+      "Collaborated with stakeholders, PMs, and UX/UI designers in an agile environment to enhance design and efficiency during each sprint.",
+      "Delivered frontend improvements with React.js and backend optimizations using Python and AWS, reducing backend response times by 10%.",
     ],
   },
   {
@@ -225,11 +227,12 @@ const experiences = [
     iconBg: "#000000",
     date: "August 2023 - Present",
     points: [
-      "Provide tutoring for 200 and 300-level computer science courses, simplifying complex concepts for students.",
-      "Assist students in mastering algorithms, data structures, object-oriented programming, and software development principles.",
+      "Mentor and tutor 150+ students in 200- and 300-level computer science courses, adapting to diverse learning styles.",
+      "Teach algorithms, data structures, object-oriented programming, and software development principles, enhancing students' understanding of complex concepts.",
     ],
   },
 ];
+
 
 
 const testimonials = [
