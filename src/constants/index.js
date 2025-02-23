@@ -211,7 +211,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2024 - August 2024",
     points: [
-      "Developed Helpfirst, an internal AI-powered Chrome extension, enhancing productivity for 100+ developers by 8% with a responsive React.js frontend and an AWS serverless backend. Trained a custom LLM for web development use cases.",
+      "Developed Helpfirst, an internal AI-powered Chrome extension, enhancing productivity for 100+ developers by 8% with a responsive React.js frontend and an AWS serverless backend.",
       "Built Care Connect, a feature aiding users in selecting primary care physicians, supporting 500,000+ users during open enrollment, with a projected 8% increase in new members. Designed the interface and API using React.js, AWS Lambda, and DynamoDB.",
       "Collaborated cross-functionally in an agile environment, delivering frontend enhancements, backend optimizations, and reducing response times."      ],
   },
