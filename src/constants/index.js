@@ -211,14 +211,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2024 - August 2024",
     points: [
-      "Collaborated on Helpfirst, an internal Chrome extension AI chatbot for 100+ developers, boosting productivity by 8% and improving delivery speed.",
-      "Utilized React.js to design a responsive frontend for user input and adjustable settings, providing a highly customizable experience.",
-      "Trained a custom LLM using web development datasets and implemented a scalable backend using an AWS serverless stack including Lambda (Python), API Gateway, and DynamoDB for efficient data handling and integration.",
-      "Developed Care Connect, a feature guiding users to select primary care physicians based on location, language, and care ratings.",
-      "Built the interface and a POST API using AWS Lambda and DynamoDB, supporting 500,000+ users during open enrollment and boosting new member enrollment by 8%, helping Healthfirst reach 2,000,000 members.",
-      "Collaborated with stakeholders, PMs, and UX/UI designers in an agile environment to enhance design and efficiency during each sprint.",
-      "Delivered frontend improvements with React.js and backend optimizations using Python and AWS, reducing backend response times by 10%.",
-    ],
+      "Developed Helpfirst, an internal AI-powered Chrome extension, enhancing productivity for 100+ developers by 8% with a responsive React.js frontend and an AWS serverless backend. Trained a custom LLM for web development use cases.",
+      "Built Care Connect, a feature aiding users in selecting primary care physicians, supporting 500,000+ users during open enrollment, with a projected 8% increase in new members. Designed the interface and API using React.js, AWS Lambda, and DynamoDB.",
+      "Collaborated cross-functionally in an agile environment, delivering frontend enhancements, backend optimizations, and reducing response times."      ],
   },
   {
     title: "Peer Tutor/Mentor",
