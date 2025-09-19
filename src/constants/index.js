@@ -193,6 +193,19 @@ const educations = [
 
 const experiences = [
   {
+    title: "Software Developer Engineer",
+    company_name: "Amazon Web Services",
+    icon: aws,
+    iconBg: "#E6DEDD",
+    date: "May 2025 - August 2025",
+    points: [
+      "Enhanced observability for Aurora Limitless Database Shard Groups, delivering real-time health visibility across 1M+ shard groups in multiple availability zones.",
+      "Implemented cross-node connectivity, KDTA, and SQL engine checks to detect failures impacting customer reads/writes, strengthening Aurora’s high-availability systems.",
+      "Built Java + XML APIs and React + TypeScript dashboards, enabling operators to view shard states, trigger recovery actions, and resolve issues faster.",
+      "Improved backend reliability with Ruby and automated testing, cutting detection time by 30% and reducing manual triage by 60%."
+    ],
+  },
+  {
     title: "Software Engineer",
     company_name: "HeadStarter",
     icon: hs, 
@@ -211,12 +224,14 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2024 - August 2024",
     points: [
-      "Developed Helpfirst, an internal AI-powered Chrome extension, enhancing productivity for 100+ developers by 8% with a responsive React.js frontend and an AWS serverless backend.",
-      "Built Care Connect, a feature aiding users in selecting primary care physicians, supporting 500,000+ users during open enrollment, with a projected 8% increase in new members. Designed the interface and API using React.js, AWS Lambda, and DynamoDB.",
-      "Collaborated cross-functionally in an agile environment, delivering frontend enhancements, backend optimizations, and reducing response times."      ],
+      "Built Helpfirst, an internal AI-powered Chrome extension used by 350+ engineers, boosting productivity by 28% and improving delivery speed with a responsive React.js frontend and adjustable settings.",
+      "Integrated OpenAI API for chatbot intelligence and implemented a scalable AWS serverless backend (Lambda in Python, API Gateway, DynamoDB) for efficient data handling and integration.",
+      "Developed Care Connect, a React.js feature that guided 500,000+ users in selecting primary care physicians by location, language, and ratings—boosting new member enrollment by 16% during open enrollment and helping Healthfirst reach 2M members.",
+      "Collaborated with stakeholders, PMs, and UI/UX designers in agile sprints, leveraging data-driven insights to diagnose problems and deliver customer-centric solutions."
+    ],
   },
   {
-    title: "Peer Tutor/Mentor",
+    title: "Computer Science Tutor",
     company_name: "University at Albany",
     icon: ua, 
     iconBg: "#000000",
